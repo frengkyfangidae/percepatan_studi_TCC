@@ -36,7 +36,8 @@ Keterkaitan antara  Docker CE ( Community editon) dengan docker compose yaitu De
 **II**
 
 1.	Basic objects kubernetes meliputi:
-a. pod 
+
+a. pod
 b. services
 c. volume
 d. NameSpace
