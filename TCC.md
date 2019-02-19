@@ -2,13 +2,6 @@
 
 **I**
 
-1.	Kubernetes adalah aplikasi cluster management open source yang disponsori oleh Google. Aplikasi ini berasal dari aplikasi internal yang digunakan Google (namanya Borg) untuk mengelola cluster mereka sendiri
-2.	Sama seperti docker swarm, kubectl dapat melakukan manajemen container, akan tetapi kubectl merupakan produk yang akan terus berkembang dan akan lebih banyak digunakan dibandingkan dengan docker swarm. 
-3.	Pod adalah objek terkecil, paling dasar yang dapat digunakan di Kubernetes. Pod mewakili satu contoh proses yang berjalan di kluster Anda. Pod berisi satu atau lebih kontainer, seperti kontainer Docker. Ketika Pod menjalankan beberapa kontainer, kontainer dikelola sebagai satu kesatuan dan berbagi sumber daya Pod. Secara umum, menjalankan beberapa wadah dalam satu Pod adalah kasus penggunaan tingkat lanjut.
-4.	Docker Compose adalah alat untuk mendefinisikan dan menjalankan aplikasi Docker multi-kontainer. Dengan Compose, Anda menggunakan file Compose untuk mengonfigurasi layanan aplikasi Anda. Kemudian, menggunakan satu perintah, Anda membuat dan memulai semua layanan dari konfigurasi Anda.
-5.	Docker Machine adalah alat yang memungkinkan Anda menginstal Docker Engine pada host virtual, dan mengelola host dengan perintah mesin docker. Anda dapat menggunakan Mesin untuk membuat host Docker di Mac lokal Anda atau kotak Windows, di jaringan perusahaan Anda, di pusat data Anda, atau di penyedia cloud seperti Azure, AWS, atau Digital Ocean.
-
-
 1.	Unikernel adalah sebuah image yang dapat dieksekusi yang dapat dieksekusi secara native pada hypervisor, tanpa perlu sistem operasi yang terpisah. Image tersebut berisi kode aplikasi, serta semua fungsi sistem operasi yang diperlukan oleh aplikasi itu.
 2.	Dockerfile adalah dokumen teks yang berisi semua perintah yang dapat dipanggil pengguna pada baris perintah untuk membuat sebuah image. Menggunakan docker build pengguna dapat membuat build otomatis yang  dapat mengeksekusi beberapa instruksi baris perintah secara berurutan.
 3.	Docker Hub adalah repositori berbasis cloud tempat dimana users Docker membuat, menguji, menyimpan, dan mendistribusikan image pada kontainer. Melalui Docker Hub, pengguna dapat mengakses repositori gambar sumber terbuka, dan juga menggunakan ruang untuk membuat repositori pribadi mereka sendiri, fungsi pembuatan otomatis, webhooks dan kelompok kerja.
