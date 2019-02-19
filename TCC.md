@@ -1,6 +1,6 @@
 ## UTS
 
-**I**
+**I.**
 
 1.	Unikernel adalah sebuah image yang dapat dieksekusi yang dapat dieksekusi secara native pada hypervisor, tanpa perlu sistem operasi yang terpisah. Image tersebut berisi kode aplikasi, serta semua fungsi sistem operasi yang diperlukan oleh aplikasi itu.
 2.	Dockerfile adalah dokumen teks yang berisi semua perintah yang dapat dipanggil pengguna pada baris perintah untuk membuat sebuah image. Menggunakan docker build pengguna dapat membuat build otomatis yang  dapat mengeksekusi beberapa instruksi baris perintah secara berurutan.
@@ -9,7 +9,7 @@
 5.	Dalam domain Cloud Computing, ada berbagai istilah untuk bagian-bagian tertentu dari cloud. Beberapa istilah ini mencakup variasi yang berbeda dari "XaaS(Everithing as a Services)" - yang berarti "sesuatu" sebagai layanan; X adalah variabel yang dapat diubah untuk mewakili beberapa hal. Istilah ini hanya menggambarkan distribusi berbagai komponen TI dalam model layanan Cloud Computing. Semua opsi berikut adalah layanan hosting yang disediakan melalui Cloud, dan termasuk keamanan Cloud; beberapa fokus pada satu aspek TI, sementara yang lain mencakup semuanya sebagai layanan.
 
 
-**II**
+**II.**
 
 Keterkaitan antara  Docker CE ( Community editon) dengan docker compose yaitu Dengan docker compose kita bisa menyimpan konfigurasi dalam file, berarti semua perubahan dependency service, seperti versi database dan service lain dapat dimasukkan dalam VCS (Version Control System). Dengan VCS kita dapat lebih mudah men-debug jika terjadi error pada software.
 
@@ -29,25 +29,24 @@ Keterkaitan antara  Docker CE ( Community editon) dengan docker compose yaitu De
 **II**
 
 1.	Basic objects kubernetes meliputi:
-
-a. pod
-b. services
-c. volume
-d. NameSpace
+    * pod
+    *services
+    * volume
+    * NameSpace
 
 2.	Controller kubernetes meliputi:
-a. ReplicaSet
-b. Deployment
-c. StatefulSet
-d. DaemonSet
-e. Job
+    * ReplicaSet
+    * Deployment
+    * StatefulSet
+    * DaemonSet
+    * Job
 
 3.	Keterkaitan antara basic objects dan controller. Kubernetes berisi sejumlah abstraksi tingkat lebih tinggi yang disebut Controllers. Kontroler dibangun di atas objek dasar, dan menyediakan fungsionalitas tambahan dan fitur kenyamanan.
 
 
 **III**
 Deploy Pod menggunkan Perintah Kubectl
-a.	Create a Deployment based on the YAML file:
+1.  Create a Deployment based on the YAML file:
 kubectl apply -f https://k8s.io/examples/application/deployment.yaml
 b.	Display information about the Deployment:
 kubectl describe deployment nginx-deployment
